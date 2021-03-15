@@ -1,0 +1,94 @@
+body header {
+	background-image: url("dark-web-laptop.jpg");
+	background-attachment:fixed;
+	background-size:cover;
+	background-position:center;
+	height:65vh;
+	opacity:0.8;
+}
+.horizontal-list{
+	list-style:none;
+
+}
+.text-center{
+	text-align:center;
+}
+.horizontal-list li{
+	display:inline;
+	padding:0px 40px 40px 0px;
+	font-size:17px;
+	font-style:unset;
+	color:darkblue;
+}
+	.horizontal-list li a {
+		text-decoration: none;
+		transition: color 0.5s;
+	}
+.horizontal-list li:hover {
+	text-decoration:double;
+}
+	.horizontal-list li a:hover {
+		text-decoration: underline;
+		
+	}
+	#name {
+		text-align: center;
+		font-size: 70px;
+		color: #f5f2d0;
+		margin-top: 6vh;
+		font-family: Book Antiqua;
+	}
+.img{
+	height:30px;
+	width:30px;
+}
+#about{
+	height:auto;
+	width:100%;
+	position:relative;
+}
+#img{
+	height:12rem;
+	width:12rem;
+	margin:auto;
+}
+	#img > img {
+		height: 100%;
+		width: 100%;
+		border-radius: 50%;
+		margin-top: -6rem;
+		border: solid 3px white;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+#about{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.symbol img:hover {
+	
+	border-radius:50%;
+	text-decoration:line-through;
+	box-shadow:0px 0px 6px 2px black;
+	height:25px;
+	width:25px
+}
+#skills {
+	background-color: #D3D3D3;
+	height: auto;
+	width: 100%;
+	position: relative
+}
+.skills{
+	color:darkblue;
+}
+#container{
+	display:inline-flex;
+	flex-wrap:wrap;
+	margin:20px;
+}
+.skills-set{
+	margin:50px;
+	padding:0px 10px 0px 10px;
+	background-color:blue;
+	border:solid 2px blue;
+	border-radius:5px
+}
