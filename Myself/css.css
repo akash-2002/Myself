@@ -3,7 +3,7 @@ body header {
 	background-attachment:fixed;
 	background-size:cover;
 	background-position:center;
-	height:65vh;
+	height:36em;
 	opacity:0.8;
 }
 .horizontal-list{
@@ -84,11 +84,16 @@ body header {
 	display:inline-flex;
 	flex-wrap:wrap;
 	margin:20px;
+	align-items:center;
 }
-.skills-set{
-	margin:50px;
-	padding:0px 10px 0px 10px;
-	background-color:blue;
-	border:solid 2px blue;
-	border-radius:5px
+.skills-set {
+	margin: 50px;
+	padding: 0px 4rem 0px 4rem;
+	background-color: #6577B3;
+	border: solid 2px #6577B3;
+	border-radius: 10px;
+	#box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+	.skills-set:hover {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+	}
