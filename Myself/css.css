@@ -15,8 +15,9 @@ body header {
 }
 .horizontal-list li{
 	display:inline;
-	padding:0px 40px 40px 0px;
-	font-size:17px;
+	padding:3rem 2rem 2rem 2rem;
+	margin-top:2rem;
+	font-size:1.5rem;
 	font-style:unset;
 	color:darkblue;
 }
@@ -42,10 +43,12 @@ body header {
 	height:30px;
 	width:30px;
 }
-#about{
-	height:auto;
-	width:100%;
-	position:relative;
+#about {
+	height: auto;
+	width: 100%;
+	position: relative;
+	padding: 20px;
+	font: bold 2rem Didot
 }
 #img{
 	height:12rem;
@@ -80,19 +83,23 @@ body header {
 .skills{
 	color:darkblue;
 }
-#container{
-	display:inline-flex;
-	flex-wrap:wrap;
-	margin:20px;
-	align-items:center;
+#container {
+	display: inline-flex;
+	flex-wrap: wrap;
+	margin: 20px;
+	align-items: center;
+	align-content: center;
+	align-self: center
 }
 .skills-set {
-	margin: 50px;
+	margin: 4rem;
 	padding: 0px 4rem 0px 4rem;
 	background-color: #6577B3;
 	border: solid 2px #6577B3;
-	border-radius: 10px;
-	#box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 1rem;
+	text-size-adjust: 175%;
+	text-align:center;
+
 }
 	.skills-set:hover {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
