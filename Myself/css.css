@@ -117,6 +117,7 @@ body header {
 	border-radius: 1rem;
 	color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+	border:none;
 }
 	.education:hover {
 		animation-name: shadowout;
@@ -140,4 +141,9 @@ body header {
 	to {
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
 	}
+}
+.container{
+	margin-top:2rem;
+	height:auto;
+	width:auto;
 }
