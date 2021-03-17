@@ -99,8 +99,45 @@ body header {
 	border-radius: 1rem;
 	text-size-adjust: 175%;
 	text-align:center;
+	
+
 
 }
+
+
 	.skills-set:hover {
+		animation-name: shadowin;
+		animation-duration: 0.5s;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
 	}
+.education {
+	background-color: #0f0f0f;
+	#margin-top:1rem;
+	border: 1px solid black;
+	border-radius: 1rem;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+	.education:hover {
+		animation-name: shadowout;
+		animation-duration: 1s;
+		box-shadow: none;
+	}
+		@keyframes shadowout{
+			from {
+				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+			}
+			to {
+				box-shadow: none;
+			}
+		}
+
+@keyframes shadowin {
+	from {
+		box-shadow: none;
+	}
+
+	to {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+	}
+}
