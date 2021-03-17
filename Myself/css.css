@@ -118,12 +118,19 @@ body header {
 	color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
 	border:none;
+	font-size:1.2rem
 }
-	.education:hover {
-		animation-name: shadowout;
-		animation-duration: 1s;
-		box-shadow: none;
-	}
+.card-title  {
+	font-size: 1.5rem
+}
+.card-subtitle{
+	font-size:1.2rem;
+}
+.education:hover {
+	animation-name: shadowout;
+	animation-duration: 1s;
+	box-shadow: none;
+}
 		@keyframes shadowout{
 			from {
 				box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
@@ -143,7 +150,7 @@ body header {
 	}
 }
 .container{
-	margin-top:2rem;
+	margin-top:1rem;
 	height:auto;
 	width:auto;
 }
