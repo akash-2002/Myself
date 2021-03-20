@@ -156,7 +156,15 @@ body header {
 	width:auto;
 }
 .card {
-	margin-top:2rem
+	margin-top:2rem;
+	margin-bottom:1rem
 }
-
+#contact {
+	background-image: linear-gradient(110deg, blue, darkblue);
+}
+.con{
+	text-align:center;
+	font-size:x-large
+	
+}
 	
