@@ -50,10 +50,11 @@ body header {
 	padding: 20px;
 	font: bold 2rem Didot
 }
-#img{
-	height:12rem;
-	width:12rem;
-	margin:auto;
+
+#img {
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
 }
 	#img > img {
 		height: 100%;
@@ -74,7 +75,7 @@ body header {
 	height:25px;
 	width:25px
 }
-#skills {
+#skills, #portfolio {
 	background-color: #D3D3D3;
 	height: auto;
 	width: 100%;
@@ -154,3 +155,8 @@ body header {
 	height:auto;
 	width:auto;
 }
+.card {
+	margin-top:2rem
+}
+
+	
