@@ -85,15 +85,19 @@ body header {
 	color:darkblue;
 }
 #container {
-	display: inline-flex;
-	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	overflow:inherit;
+	/* overflow:; */
+	/* flex-wrap: wrap; */
 	margin: 20px;
 	align-items: center;
 	align-content: center;
-	align-self: center
+	align-self: center;
+	padding-bottom: 2rem;
 }
 .skills-set {
-	margin: 4rem;
+	margin: auto;
 	padding: 0px 4rem 0px 4rem;
 	background-color: #6577B3;
 	border: solid 2px #6577B3;
